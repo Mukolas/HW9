@@ -101,105 +101,104 @@
 // kn3=document.forms.myForm5.Textic.value;
 // createTabel(kn1,kn2,kn3,elem);
 // }
+//stop
+// let div1=  document.getElementById('hwid1');
+// div1.style.backgroundColor = 'black';
+// div1.style.width= '700px';
+// div1.style.height = '300px';
+// div1.style.paddingTop ='50px'
+// div1.style.paddingLeft= '20px';
+// div1.style.paddingRight ='20px';
 
-let div1=  document.getElementById('hwid1');
-div1.style.backgroundColor = 'black';
-div1.style.width= '700px';
-div1.style.height = '300px';
-div1.style.paddingTop ='50px'
-div1.style.paddingLeft= '20px';
-div1.style.paddingRight ='20px';
-
-let ulka = document.getElementById('hwid11');
-ulka.style.backgroundColor= 'grey';
-ulka.style.margin ='20px';
-let imeges = ['https://www.shareicon.net/data/2015/09/25/107067_development_512x512.png','https://www.tiriniti.com/wp-content/uploads/2017/05/STEAM-1.jpg','http://cdn.onlinewebfonts.com/svg/img_104791.png','https://game-icons.net/icons/ffffff/000000/1x1/delapouite/perspective-dice-six-faces-random.png','https://i.artfile.ru/3600x2400_911576_[www.ArtFile.ru].jpg','https://www.shareicon.net/data/2015/09/25/107067_development_512x512.png','http://geek-nose.com/wp-content/uploads/2016/07/697152fa6efe0191a2885079ff35244f.jpg'];
-
-
-
-let knpBack= document.getElementById('knpBack');
-let knpNext = document.getElementById('knpNext');
-knpBack.style.display ='inline';
-knpBack.style.borderRadius ='50%'
-knpBack.style.listStyle ='none';
-knpBack.style.height='30px';
-knpBack.style.width='30px';
-knpBack.style.backgroundColor='white';
-knpBack.style.position ='absolute';
-knpBack.style.marginTop='90px';
-knpBack.style.marginLeft= '-50px';
-
-knpNext.style.display ='inline';
-knpNext.style.borderRadius ='50%'
-knpNext.style.listStyle ='none';
-knpNext.style.height='30px';
-knpNext.style.width='30px';
-knpNext.style.backgroundColor='white';
-knpNext.style.position ='absolute';
-knpNext.style.marginTop='90px';
-knpNext.style.marginLeft= '10px';
+// let ulka = document.getElementById('hwid11');
+// ulka.style.backgroundColor= 'grey';
+// ulka.style.margin ='20px';
+// let imeges = ['https://www.shareicon.net/data/2015/09/25/107067_development_512x512.png','https://www.tiriniti.com/wp-content/uploads/2017/05/STEAM-1.jpg','http://cdn.onlinewebfonts.com/svg/img_104791.png','https://game-icons.net/icons/ffffff/000000/1x1/delapouite/perspective-dice-six-faces-random.png','https://i.artfile.ru/3600x2400_911576_[www.ArtFile.ru].jpg','https://www.shareicon.net/data/2015/09/25/107067_development_512x512.png','http://geek-nose.com/wp-content/uploads/2016/07/697152fa6efe0191a2885079ff35244f.jpg'];
 
 
-for ( i=0; i < 3; i++) {
-    let test = document.getElementById('imegeses');
-    test.style.display = 'inline';
-    test.style.borderRadius = '5%';
-    test.style.width = '200px';
-    test.style.height = '200px';
-    test.style.listStyle = 'none';
-    test.style.marginLeft = '-20px';
+
+// let knpBack= document.getElementById('knpBack');
+// let knpNext = document.getElementById('knpNext');
+// knpBack.style.display ='inline';
+// knpBack.style.borderRadius ='50%'
+// knpBack.style.listStyle ='none';
+// knpBack.style.height='30px';
+// knpBack.style.width='30px';
+// knpBack.style.backgroundColor='white';
+// knpBack.style.position ='absolute';
+// knpBack.style.marginTop='90px';
+// knpBack.style.marginLeft= '-50px';
+
+// knpNext.style.display ='inline';
+// knpNext.style.borderRadius ='50%'
+// knpNext.style.listStyle ='none';
+// knpNext.style.height='30px';
+// knpNext.style.width='30px';
+// knpNext.style.backgroundColor='white';
+// knpNext.style.position ='absolute';
+// knpNext.style.marginTop='90px';
+// knpNext.style.marginLeft= '10px';
+
+
+// for ( i=0; i < 3; i++) {
+//     let test = document.getElementById('imegeses');
+//     test.style.display = 'inline';
+//     test.style.borderRadius = '5%';
+//     test.style.width = '200px';
+//     test.style.height = '200px';
+//     test.style.listStyle = 'none';
+//     test.style.marginLeft = '-20px';
 
     
-    let img = document.createElement('img');
-    img.style.backgroundColor = 'white';
-    img.setAttribute('src', imeges[i]);
-    img.width = 200;
-    img.height = 200;
-    img.style.borderRadius = '5%';
-    img.style.margin = '3px';
-    test.appendChild(img);
+//     let img = document.createElement('img');
+//     img.style.backgroundColor = 'white';
+//     img.setAttribute('src', imeges[i]);
+//     img.width = 200;
+//     img.height = 200;
+//     img.style.borderRadius = '5%';
+//     img.style.margin = '3px';
+//     test.appendChild(img);
   
-}
+// }
 
-function funk(i, r) {
+// function funk(i, r) {
 
-    for ( i; i < r; i++) {
-        let test = document.getElementById('imegeses');
-        test.style.display = 'inline';
-        test.style.borderRadius = '5%';
-        test.style.width = '200px';
-        test.style.height = '200px';
-        test.style.listStyle = 'none';
-        test.style.marginLeft = '-20px';
+//     for ( i; i < r; i++) {
+//         let test = document.getElementById('imegeses');
+//         test.style.display = 'inline';
+//         test.style.borderRadius = '5%';
+//         test.style.width = '200px';
+//         test.style.height = '200px';
+//         test.style.listStyle = 'none';
+//         test.style.marginLeft = '-20px';
 
         
-        let img = document.createElement('img');
-        img.style.backgroundColor = 'white';
-        img.setAttribute('src', imeges[i]);
-        img.width = 200;
-        img.height = 200;
-        img.style.borderRadius = '5%';
-        img.style.margin = '3px';
-        test.appendChild(img);
+//         let img = document.createElement('img');
+//         img.style.backgroundColor = 'white';
+//         img.setAttribute('src', imeges[i]);
+//         img.width = 200;
+//         img.height = 200;
+//         img.style.borderRadius = '5%';
+//         img.style.margin = '3px';
+//         test.appendChild(img);
       
-    }
+//     }
    
-   } 
-   let n =0;
-knpBack.onclick=()=>{
-    n++;
-    console.log(n);
-          if (n==1){
-            imegeses.style.display ='none';
-              funk(3,6);
-          }
+//    } 
+//    let n =0;
+// knpBack.onclick=()=>{
+//     n++;
+//     console.log(n);
+//           if (n==1){
+//             imegeses.style.display ='none';
+//               funk(3,6);
+//           }
         
-}
-
+// }
+////////////////////////////////----З Каруселлю фіаско----/////////////////////////////////
 
     
-
-
+    
 
 
 
